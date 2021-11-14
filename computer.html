@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        
+        <link rel="stylesheet" href="./style.css">
+
+    <!-- animation link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>computer</title>
+</head>
+
+<body onload="book()">
+
+   <nav class="navbar navbar-light" style="background-color: #e3f2fd; height: 120px; padding-left: 25px; ">
+        <img src="./crop.jpg" alt="">
+        <h2 style="padding-right: 35%;">GOVERNMENT COLLEGE UNIVERSITY HYDERABAD</h2>
+
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> GCUH Library</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-info btn-sm" id="btnh">
+                            <a class="nav-link active" aria-current="page" href="./index new.html">Home</a>
+                           </button>                       
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                          Category of Books
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./computer.html">Computer Science</a></li>
+                            <li><a class="dropdown-item" href="./IT.html">Information Technology</a></li>
+                            <li><a class="dropdown-item" href="./software.html">Software Engineering</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Other Books</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Enter Book Name" aria-label="Search" id="myinput" onkeyup="searchBooks()">
+                    <button class="btn btn-outline-success" type="button" onclick="searchbook()">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>  
+
+    <div class="container" style="padding-top: 100px;">
+        <hr>
+    </div>
+
+    <div class="container" data-aos="zoom-in-down" style="padding-top: 80px; padding-left: 300px; padding-bottom: 80px;">
+        <h1 style="word-spacing: 10px;">
+           <i> COMPUTER SCIENCE </i> BOOK'S
+        </h1>
+    </div>
+
+    <div class="container">
+        <hr>
+    </div>
+
+    <div class="container"  id='books' data-aos="flip-left" style="padding-top: 50px; ; display: flex;">
+
+        <div class="card" id="card" data-aos="flip-left" style="width: 18rem; margin: 40px;">
+            <img src="./c new.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text"> A computer system is a set of integrated devices which takes input, process it and
+                    give output. Also it store data and information. computer system allows users to input, manipulate
+                    and store data. Computer systems include a CPU, monitor, keyboard, mouse and other optional
+                    components.</p>
+            </div>
+        </div>
+
+        <div class="card" id="card" data-aos="flip-up" style="width: 18rem; margin: 40px;">
+            <img src="./c2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text"> Computer science is the study of computers and computing as well as their
+                    theoretical and practical applications. Computer science applies the principles of mathematics,
+                    engineering, and logic to a plethora of functions, including algorithm formulation, software and
+                    hardware development, and artificial intelligence. </p>
+            </div>
+        </div>
+
+        <div class="card" id="card" data-aos="flip-up" style="width: 18rem; margin: 40px;">
+            <img src="./c5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text"> Computer application in business makes it easy to complete tedious and timely
+                    tasks for the owners and managers. Computers boost the business and management processes with top
+                    efficiency. ... A computer with the Internet makes the process more accurate and faster for the
+                    business organization. </p>
+            </div>
+        </div> 
+
+    </div>
+
+     <div class="container" data-aos="flip-up" style="display: flex; padding-top: 50px;">
+
+        <div class="card" id="card" data-aos="flip-up" style="width: 18rem; margin: 40px;">
+            <img src="./c4.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text"> Start a Computer: Step 1: Press the start button on the CPU tower. Step 2: Wait
+                    while the computer boots. When the computer has finished booting, it will show a dialogue box that
+                    will ask for a user name and password.</p>
+            </div>
+        </div>
+
+        <div class="card" id="card" data-aos="flip-up" style="width: 18rem; margin: 40px;">
+            <img src="./c8.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text"> Computer science is the study of computers and computing as well as their
+                    theoretical and practical applications. Computer science applies the principles of mathematics,
+                    engineering, and logic to a plethora of functions, including algorithm formulation, software and
+                    hardware development, and artificial intelligence.</p>
+            </div>
+        </div>
+
+        <div class="card" id="card" data-aos="flip-up" style="width: 18rem; margin: 40px;">
+            <img src="./c9.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Computer graphics is a sub-field of computer science which studies methods for
+                    digitally synthesizing and manipulating visual content. Although the term often refers to the study
+                    of three-dimensional computer graphics, it also encompasses two-dimensional graphics and image
+                    processing.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    
+
+     <!-- footer -->
+
+     <div style="background-color: #7fffd4; margin-top: 100px;">
+        <div class="row">
+          <div class="col-8" id="footer">
+            <ul>
+              <li><a href="">Contact us</a></li>
+              <li><a href=""> FAQ</a></li>
+              <li><a href=""> Privacy & Policy</a></li>
+              <li><a href=""> Terms & Conditions</a></li>
+            </ul>
+    
+          </div>
+          <div class="col-4" id="foot-icon">
+           <a href="" > <i class="fab fa-2x fa-facebook" style="padding-right: 20px;"></i></a>
+         
+           <a href=""> <i class="fab fa-2x fa-instagram" style="padding-right: 20px;"></i> </a>
+         
+           <a href=""> <i class="fab fa-2x fa-twitter" style="padding-right: 20px;"></i> </a>
+    
+          </div>
+        </div>
+    
+      </div>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+    <!-- animation script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="https://www.gstatic.com/firebasejs/9.4.0/firebase-app-compat.js";></script>
+    <script src="https://www.gstatic.com/firebasejs/9.4.0/firebase-database-compat.js";></script>
+
+<script>
+   const firebaseConfig = {
+  apiKey: "AIzaSyCj9qOW8ZynZVZkoF_YZMDFvzFMjBRbLII",
+  authDomain: "appnew-610b3.firebaseapp.com",
+  databaseURL: "https://appnew-610b3-default-rtdb.firebaseio.com",
+  projectId: "appnew-610b3",
+  storageBucket: "appnew-610b3.appspot.com",
+  messagingSenderId: "349794407351",
+  appId: "1:349794407351:web:dc1bbac7077c6a814ace32"
+};
+    
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
